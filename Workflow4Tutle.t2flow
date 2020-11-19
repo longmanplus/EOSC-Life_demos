@@ -1,14 +1,14 @@
-<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-core-2.5.0"><dataflow id="d0e0007c-2d80-4dbb-a959-78ca5962cc33" role="top"><name>Workflow1</name><inputPorts><port><name>FDP_URI</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>FDP_RDF</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port></outputPorts><processors><processor><name>REST_Service</name><inputPorts><port><name>id</name><depth>0</depth></port></inputPorts><outputPorts><port><name>responseBody</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>rest-activity</artifact><version>1.5</version></raven><class>net.sf.taverna.t2.activities.rest.RESTActivity</class><inputMap><map from="id" to="id" /></inputMap><outputMap><map from="responseBody" to="responseBody" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.rest.RESTActivityConfigurationBean xmlns="">
+<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-core-2.5.0"><dataflow id="75f1b9a0-4bc6-4563-beb8-cc293763df58" role="top"><name>Workflow1</name><inputPorts><port><name>FDP_URI</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>FDP_RDF</name><lastPredictedDepth>0</lastPredictedDepth><annotations /></port></outputPorts><processors><processor><name>REST_Service</name><inputPorts><port><name>id</name><depth>0</depth></port></inputPorts><outputPorts><port><name>responseBody</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>rest-activity</artifact><version>1.5</version></raven><class>net.sf.taverna.t2.activities.rest.RESTActivity</class><inputMap><map from="id" to="id" /></inputMap><outputMap><map from="responseBody" to="responseBody" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.rest.RESTActivityConfigurationBean xmlns="">
   <httpMethod>GET</httpMethod>
-  <urlSignature>http://www.uniprot.org/uniprot/{id}.xml</urlSignature>
-  <acceptsHeaderValue>application/xml</acceptsHeaderValue>
+  <urlSignature>{id}</urlSignature>
+  <acceptsHeaderValue />
   <contentTypeForUpdates>application/xml</contentTypeForUpdates>
   <outgoingDataFormat>String</outgoingDataFormat>
   <sendHTTPExpectRequestHeader>false</sendHTTPExpectRequestHeader>
   <showRedirectionOutputPort>false</showRedirectionOutputPort>
   <showActualUrlPort>false</showActualUrlPort>
   <showResponseHeadersPort>false</showResponseHeadersPort>
-  <escapeParameters>true</escapeParameters>
+  <escapeParameters>false</escapeParameters>
   <otherHTTPHeaders />
   <activityInputs>
     <entry>
@@ -30,6 +30,28 @@
         <identification>d0e0007c-2d80-4dbb-a959-78ca5962cc33</identification>
       </annotationBean>
       <date>2020-11-05 08:08:34.570 UTC</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain_2_2><annotation_chain_2_2 encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
+        <identification>75f1b9a0-4bc6-4563-beb8-cc293763df58</identification>
+      </annotationBean>
+      <date>2020-11-18 18:56:29.730 UTC</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain_2_2><annotation_chain_2_2 encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.IdentificationAssertion">
+        <identification>14be5219-4acc-468e-85a0-8f02416a5b50</identification>
+      </annotationBean>
+      <date>2020-11-18 18:54:39.656 UTC</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
