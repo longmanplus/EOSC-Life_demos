@@ -1,0 +1,9 @@
+query=
+prefix s3om_meta: <http://purl.org/sssom/meta/> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#>		
+select ?ordo where { 
+    ?s s3om_meta:subject_id ?snomed .
+    ?s s3om_meta:object_id ?ordo .
+    ?s s3om_meta:predicate_id ?mp .
+    values ?mp {skos:closeMatch}
+    values ?snomed  {<http://identifiers.org/snomedct/234485006>}}

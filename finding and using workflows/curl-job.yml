@@ -1,0 +1,2 @@
+query_file: /home/qlong/work/cwl/file.sparql
+endpoint: http://10.0.2.15:7200/repositories/snomed_ordo_sssom
