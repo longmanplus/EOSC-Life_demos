@@ -1,7 +1,8 @@
-# Finding and using machine readable resources through FAIR data points
+# The demos of finding and using machine readable resources
 
-A taverna workflow to demenstrate the finding and using of mappings and workflows through FAIR data point. 
+## A taverna workflow to demenstrate the finding and using of mappings through [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint-Spec). 
 
-An extended Data Catalog Vocabulary (DCAT) with a couples of new dcat:Resource types, including mapping and workflow, is used in the demo.
-
-An RDF file with mappings between SNOMED codes to ORDO codes are generated beforehand via SPARQL query on the owl file of Mondo Disease Ontology (Mondo) using RDFLib.  
+  An [extension](https://github.com/LUMC-BioSemantics/dcat-extension/) of Data Catalog Vocabulary ([DCAT2](https://www.w3.org/TR/vocab-dcat-2
+)) with a couples of new dcat:Resource types, including mapping and workflow, is used in the demo. An RDF file with mappings between [SNOMED codes](https://www.snomed.org) to [ORDO](https://www.snomed.org) codes are generated beforehand via SPARQL query on the owl file of Mondo Disease Ontology ([Mondo](https://mondo.monarchinitiative.org/)) using RDFLib. The [SSSOM](https://github.com/mapping-commons/SSSOM) is used to form each mapping record of a resource of mappings. 
+  
+## A taverna workflow to demenstrate the finding and using of workflows through workflowhub. 
