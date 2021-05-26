@@ -5,11 +5,12 @@ class: CommandLineTool
 baseCommand: [curl, -d]
 inputs:
   query_file:
-    type: string
+    type: File
     inputBinding:
       position: 1
       prefix: '@'
       separate: false
+
   endpoint:
     type: string
     inputBinding:
