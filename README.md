@@ -13,7 +13,7 @@ An [extension](https://github.com/LUMC-BioSemantics/dcat-extension/) of Data Cat
   
 ## A demo of the FAIRness of workflows 
 
-A [CWL](https://www.commonwl.org/) workflow to demonstrate the FAIRness of specific workflow, i.e. the workflow for finding and reusing the mappings between the SNOMED terms and ORDO terms, through [WorkflowHub](https://workflowhub.eu/)
+A [CWL](https://www.commonwl.org/) workflow to demonstrate the FAIRness of specific workflow, i.e. the workflow for finding and reusing the mappings between the SNOMED terms and ORDO terms, through [WorkflowHub](https://workflowhub.eu/).
 
 ## Licenses
 Project **Scripts** under this folder and recursive subfolders are licensed under the terms of the [MIT License](LICENSE).
