@@ -1,4 +1,4 @@
-# EOSC Life demos
+# EOSC-Life demos
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The demos for the WP6 of the EU Horizon 2020 EOSC-Life project
