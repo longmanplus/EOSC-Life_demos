@@ -8,3 +8,6 @@
 ). The Simple Standard for Sharing Ontology Mappings ([SSSOM](https://github.com/mapping-commons/SSSOM)) is used to form each mapping in a repository of mappings. 
   
 ### A [CWL](https://www.commonwl.org/) workflow to demonstrate the FAIRness of a tool/workflow through [WorkflowHub](https://workflowhub.eu/). 
+
+## Licenses
+Project **Scripts** under this folder and recursive subfolders are licensed under the terms of the [MIT License](LICENSE).
