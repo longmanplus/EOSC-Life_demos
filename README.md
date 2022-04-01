@@ -5,7 +5,7 @@ The demos of the [FAIRness](https://www.go-fair.org/fair-principles/) for the WP
 
 ## A demo of the FAIRness of data. 
 
-A [taverna](http://www.taverna.org.uk/download/workbench/) workflow to demonstrate the FAIRness (automatically found and reused by machines) of mappings (as data) between the terms of two medical ontologies through [FAIR Data Points](https://github.com/FAIRDataTeam/FAIRDataPoint-Spec). 
+A [taverna](http://www.taverna.org.uk/download/workbench/) workflow to demonstrate the FAIRness (automatically found and reused by machines) of mappings (as data) between the terms of two standard medical ontologies through [FAIR Data Points](https://github.com/FAIRDataTeam/FAIRDataPoint-Spec). 
 
 An [extension](https://github.com/LUMC-BioSemantics/dcat-extension/) of Data Catalog Vocabulary ([DCAT2](https://www.w3.org/TR/vocab-dcat-2
 )) with a couple of new dcat:Resource types, including mapping and workflow, is used in the demo. A RDF file with mappings between [SNOMED](https://bioportal.bioontology.org/ontologies/SNOMEDCT) terms to [ORDO](https://bioportal.bioontology.org/ontologies/ORDO) terms are generated beforehand via SPARQL query on the Mondo Disease Ontology ([Mondo](https://mondo.monarchinitiative.org/)) using [RDFLib](https://github.com/RDFLib/rdflib
