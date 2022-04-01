@@ -1,0 +1,24 @@
+prefix cc:    <http://creativecommons.org/ns#> 
+prefix schema: <http://schema.org/> 
+prefix bioschemas: <https://bioschemas.org/>
+prefix wf4ever: <http://purl.org/ro/wf4ever#> 
+prefix pav:   <http://purl.org/pav/> 
+prefix frapo: <http://purl.org/cerif/frapo/> 
+prefix pcdm:  <http://pcdm.org/models#> 
+prefix roterms: <http://purl.org/ro/roterms#> 
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+prefix dct:   <http://purl.org/dc/terms/> 
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfa:  <http://www.w3.org/ns/rdfa#> 
+prefix rel:   <https://www.w3.org/ns/iana/link-relations/relation#> 
+prefix bibo:  <http://purl.org/ontology/bibo/> 
+prefix wfprov: <http://purl.org/ro/wfprov#> 
+prefix prov:  <http://www.w3.org/ns/prov#> 
+prefix wfdesc: <http://purl.org/ro/wfdesc#> 
+prefix foaf:  <http://xmlns.com/foaf/0.1/> 
+	
+select ?url where { 
+    ?s a schema:SoftwareSourceCode;
+    	a bioschemas:ComputationalWorkflow;
+    	schema:url ?url .
+}

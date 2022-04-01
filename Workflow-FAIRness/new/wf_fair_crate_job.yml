@@ -1,0 +1,13 @@
+wfh_endpoint: https://workflowhub.eu/ga4gh/trs/v2/tools/122/versions/1/CWL/files?format=zip
+wfh_output_option: true
+wfh_output_name: true
+crate_inzip_path: ro-create-metadata.json
+loc_rq_file: 
+  class: File
+  path: location_query.rq
+loc_output_option: json
+loc_jq_option: '.results.bindings[] |.[] | .value'
+ds_job_file: 
+  class: File
+  path: sparql-query-job.yml
+

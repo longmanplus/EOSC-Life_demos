@@ -1,0 +1,8 @@
+wfh_endpoint: https://workflowhub.eu/ga4gh/trs/v2/tools/122/versions/1/CWL/files?format=zip
+wfh_output_option: true
+wfh_output_name: true
+crate_inzip_path: sparql-query.cwl
+query_file: 
+  class: File
+  path: location_query.rq
+
