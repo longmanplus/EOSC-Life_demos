@@ -1,4 +1,5 @@
-# The demos for the WP6 of the EU Horizon 2020 EOSC-Life project
+# EOSC Life demos
+The demos for the WP6 of the EU Horizon 2020 EOSC-Life project
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## A taverna workflow to demonstrate the [FAIRness](https://www.go-fair.org/fair-principles/) of a data resource (mappings) through [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint-Spec). 
