@@ -1,4 +1,4 @@
-# A compound Workflow for the FAIRification of a specific workflow
+# A compound workflow for the FAIRification of a specific workflow
 A workflow that combines multiple single-function workflows to demonstrate how a specific workflow can be FAIRified through WorkflowHub. This directory contains the workflow to be FAIRified and the compound workflow to do the FAIRification.
 
 ## Directories
