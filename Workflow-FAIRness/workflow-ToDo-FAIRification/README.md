@@ -1,2 +1,2 @@
-# Workflows combined to demonstrate the FAIRness of workflow through WorkflowHub 
-We provide here a CWL workflow (wf_fair_crate.cwl) composed of 7 single-function CWL workflows for retrieving workflow packages from WorflowHub, unpacking and executing the contained workflows.
+# A compound workflow demonstrating the FAIRness of workflows managed by WorkflowHub
+We provide here a CWL workflow (wf_fair_crate.cwl) composed of 7 single-function CWL workflows to demonstrate the FAIRness of a workflow managed by WorkflowHub by automatically retrieving the workflow package from WorflowHub, unpacking and executing the contained workflows.
