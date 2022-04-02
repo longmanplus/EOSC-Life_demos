@@ -1,5 +1,6 @@
 # EOSC-Life demos
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 The demos of the [FAIRness](https://www.go-fair.org/fair-principles/) (e.g. digital resources automatically found and reused by machines) for the WP6 of the EU Horizon 2020 [EOSC-Life](https://www.eosc-life.eu/) project.
 
