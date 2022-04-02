@@ -1,4 +1,4 @@
-# <img src="https://www.eosc-life.eu/wp-content/themes/eosc-life-v2/assets/images/eosclogo.png" width=10% height=10% align="right"> EOSC-Life demos 
+# <img src="https://www.eosc-life.eu/wp-content/themes/eosc-life-v2/assets/images/eosclogo.png" width=9% height=9%> Demos 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
