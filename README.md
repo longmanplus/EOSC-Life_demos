@@ -18,3 +18,5 @@ A [CWL](https://www.commonwl.org/) workflow composed of multiple basic CWL workf
 
 ## Licenses
 Project **Scripts** under this folder and recursive subfolders are licensed under the terms of the [MIT License](LICENSE).
+
+Project **Data** under this folder and recursive subfolders are licensed under the terms of the [CC0 License](https://creativecommons.org/share-your-work/public-domain/cc0/).
