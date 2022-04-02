@@ -1,2 +1,2 @@
-# A workflow FAIRifying data through FAIR Data Point
-Here we provide a taverna workflow that FAIRifies the mappings (as data) between SNOMED terms and ORDO terms hosted by a GraphDB repository. This directory preserves the turtle file containing the mappings. 
+# Demonstration of data FAIRness 
+Here we provide a taverna workflow to demonstrate the FAIRness of data (i.e. mappings between SNOMED terms and ORDO terms) brought about by FAIR Data Point and the Simple Standard for Sharing Ontological Mappings (SSSOM). This directory preserves the turtle file containing the mappings. 
